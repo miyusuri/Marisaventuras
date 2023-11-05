@@ -1,7 +1,7 @@
 function love.load()
     -- Cargar los sprites de personaje y fondo
-    fondo = love.graphics.newImage("sprites/fondo.png")
-    personaje = love.graphics.newImage("sprites/personaje.png")
+    fondo = love.graphics.newImage("assets/fondo.png")
+    personaje = love.graphics.newImage("assets/personaje.png")
 
     -- Posición inicial del personaje
     jugador = {
