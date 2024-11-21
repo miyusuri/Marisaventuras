@@ -5,7 +5,7 @@
 
    ```bash
    git clone https://github.com/miyusuri/Marisaventuras.git
-   cd yourgame
+   cd Marisaventuras
    ```
 
 3. Run the game with:
