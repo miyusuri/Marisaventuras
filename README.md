@@ -1,6 +1,3 @@
-```markdown
-# Game Title
-
 ## 🎮 How to Play
 1. Install [LÖVE 2D](https://love2d.org/)
 
@@ -9,7 +6,7 @@
    ```bash
    git clone https://github.com/miyusuri/Marisaventuras.git
    cd yourgame
-```
+   ```
 
 3. Run the game with:
    ```bash
