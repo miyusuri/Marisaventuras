@@ -41,7 +41,7 @@ function love.keypressed(key)
     if key == "lshift" or key == "rshift" then
         shiftPresionado = true
         -- Redefine la velocidad cuando Shift está presionado
-        jugador.velocidad = jugador.velocidad / 2  -- Puedes ajustar este valor
+        jugador.velocidad = jugador.velocidad / 2
     end
 end
 
@@ -55,8 +55,8 @@ end
 
 -- Dibuja en la pantalla
 function love.draw()
-    -- Dibuja el fondo
-    love.graphics.draw(fondo, 0, 0)
+    -- Dibuja el fondo escalado para cubrir toda la pantalla
+    love.graphics.draw(fondo, 0, 0, 0, love.graphics.getWidth() / fondo:getWidth(), love.graphics.getHeight() / fondo:getHeight())
 
     -- Dibuja al personaje
     love.graphics.draw(personaje, jugador.x, jugador.y)
